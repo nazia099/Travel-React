@@ -1,5 +1,11 @@
 import React from 'react';
-import logo from "../assets/image/logo.png"
+import logo from '../../assets/image/logo.png'
+import './navbar.css'
+import './banner.css'
+import search from '../../assets/image/search.png'
+import location from '../../assets/image/location.png'
+import background from '../../assets/image/background.png'
+import { IoSearchSharp } from "react-icons/io5";
 
 
 
@@ -7,12 +13,12 @@ import logo from "../assets/image/logo.png"
 const Navbar = () => {
     return(
         <section id="navbar">
-    <div class="container">
+      <div class="container">
         <div class="background">
-            <img src="image/background.png" alt=" "/>
+            <img src={background} alt=" "/>
             <div class="nav_wrapper">
                 <div class="nav_logo">
-                    <img src="image/logo.png"  alt=" "/>
+                    <img src={logo} alt="" />
                 </div>
                 <div class="nav_menu">
                     <li class="items">HOME </li>
@@ -55,11 +61,11 @@ const Navbar = () => {
 
                 <div class="banner_button">
                     <div class="btn">
-                        <button><img src="image/search.png" alt=" "/>
+                        <button><IoSearchSharp />
                              <span>Enter Your Location</span></button>
                     </div>
                     <div class="icon ">
-                        <div class="circle"> <img src="image/location.png" alt=" "/> </div>
+                        <div class="circle"> <img src={location} alt=" "/> </div>
                        
                     </div>
                 </div>
