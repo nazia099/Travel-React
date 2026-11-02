@@ -1,0 +1,48 @@
+#memories{
+    padding-top: 110px;
+    background-color: #036E8A;
+    padding-bottom: 111px;
+}
+.background_3 {
+    position: relative;
+}
+
+
+.memories_wrapper{
+    display: flex;
+    gap: 74px;
+    position: relative;
+    z-index: 2;
+    margin-top: -530px;
+  
+}
+.memories_img {
+    position: relative;
+    z-index: 2;
+}
+.memories_img  img{
+     width: 508px;
+    height: 523px;
+
+}
+.memories_content h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+    padding-top: 76px;
+}
+.memories_content .head h3{
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+
+}
+.memories_content .pera p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.memories_content .pera{
+    padding-top: 30px;
+}

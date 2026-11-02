@@ -2,6 +2,11 @@ import React from 'react';
 import './destination.css'
 import background_2 from '../../assets/image/background_2.png'
 import vedio from '../../assets/image/vedio.png'
+import Path29 from '../../assets/image/Path 29.png'
+import Path28 from '../../assets/image/Path 28.png'
+import Path40 from '../../assets/image/Path 40.png'
+
+
 
 
 
@@ -63,30 +68,30 @@ const Destination = () => {
                             </div>
                             <div class="items">
                                 <div class="item">
-                                    <img src="image/Path 28.png" alt=""/>
+                                    <img src={Path28}/>
                                     <h6>International Air Ticket.</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 28.png" alt=""/>
+                                    <img src={Path28}/>
                                     <h6>Daily Continental Breakfast.</h6>
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 28.png" alt=""/>
+                                    <img src={Path28}/>
                                     <h6>Lunch And Dinner</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 28.png" alt=""/>
+                                    <img src={Path28}/>
                                     <h6>City Tour with Guide</h6>
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 29.png" alt=""/>
+                                    <img src={Path29}/>
                                     <h6>09 Nights Hotel</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 29.png" alt=""/>
+                                    <img src={Path29}/>
                                     <h6>Desert Safari & BBQ Dinner</h6>
                                 </div>
                                 
@@ -105,30 +110,30 @@ const Destination = () => {
                             </div>
                             <div class="items">
                                 <div class="item">
-                                    <img src="image/Path 28.png" alt=""/>
+                                    <img src={Path28}/>
                                     <h6>International Air Ticket.</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 28.png" alt=""/>
+                                    <img src={Path28}/>
                                     <h6>Daily Continental Breakfast.</h6>
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 28.png" alt=""/>
+                                    <img src={Path28}/>
                                     <h6>Lunch And Dinner</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 28.png" alt=""/>
+                                    <img src={Path28}/>
                                     <h6>City Tour with Guide</h6>
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 29.png" alt=""/>
+                                    <img src={Path29}/>
                                     <h6>09 Nights Hotel</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 29.png" alt=""/>
+                                    <img src={Path29}/>
                                     <h6>Desert Safari & BBQ Dinner</h6>
                                 </div>
                                 
@@ -148,30 +153,30 @@ const Destination = () => {
                             </div>
                             <div class="items">
                                 <div class="item">
-                                    <img src="image/Path 40.png" alt=""/>
+                                    <img src={Path40}/>
                                     <h6>International Air Ticket.</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 40.png" alt=""/>
+                                    <img src={Path40}/>
                                     <h6>Daily Continental Breakfast.</h6>
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 40.png" alt=""/>
+                                    <img src={Path40}/>
                                     <h6>Lunch And Dinner</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 40.png" alt=""/>
+                                    <img src={Path40}/>
                                     <h6>City Tour with Guide</h6>
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 40.png" alt=""/>
+                                    <img src={Path40}/>
                                     <h6>09 Nights Hotel</h6>
 
                                 </div>
                                 <div class="item">
-                                    <img src="image/Path 40.png" alt=""/>
+                                    <img src={Path40}/>
                                     <h6>Desert Safari & BBQ Dinner</h6>
                                 </div>
                                 

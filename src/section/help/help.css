@@ -1,0 +1,114 @@
+.help_box{
+    transform: translateY(-1325px);
+    padding-left: 50px;
+    position: relative;
+}
+
+.help_box .help_box2{
+    display: block;
+    transform: translateY(-450px);
+    padding-left: 40px;
+  
+}
+.help_box2{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    z-index: 2;
+}
+.help_box2 img{
+    display: block;
+}
+.help_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 84px;
+    padding-bottom: 86px;
+    transform: translateY(-620px);
+}
+.help_wrapper h2{
+    font-size: 70px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+}
+.help_one{
+    width: 779px;
+    height: 3px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 74px;
+}
+.help_wrapper .pera p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.help_two{
+    width: 411px;
+    height: 3px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 59px;
+    margin-bottom: 43px;
+}
+.help_button{
+    width: 329px;
+    height: 79px;
+    background-color: #FF8000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.help_button button{
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+#FOOTER{
+    background: whitesmoke;
+}
+.FOOTER_WRAPPER{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   transform: translateY(-1100px);
+}
+    
+
+.FOOTER_one{
+    display: flex;
+    flex-direction: column;
+   
+}
+.FOOTER_one h5{
+    font-size: 25px;
+    font-weight: 700;
+    color: #036E8A;
+    padding-bottom: 32px;
+}
+.FOOTER_one .line{
+    width: 142px;
+    height: 2px;
+    background-color: #036E8A;
+    border-radius: 6px;
+    margin-bottom: 36px;
+}
+.FOOTER_one  .topics{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.FOOTER_one  .topics h6{
+    font-size: 18px;
+    font-weight: 400;
+    color: #262525;
+   
+}

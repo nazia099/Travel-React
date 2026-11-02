@@ -101,7 +101,7 @@
 .bottom .price{
     display: flex;
     flex-direction: column;
-    gap: ;
+    
 }
 .price .one{
     font-size: 20px;
